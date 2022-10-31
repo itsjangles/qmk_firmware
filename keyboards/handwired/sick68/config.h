@@ -20,8 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 15
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 12
 
 /*
  * Keyboard Matrix Assignments
@@ -34,9 +34,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 #define MATRIX_ROW_PINS \
-    { D3, D2, D1, D0, D4 }
+    { F5, F6, B3, B1, F7, F4 }
 #define MATRIX_COL_PINS \
-    { C6, D7, E6, B4, B5, B0, D5, B6, B2, B3, B1, F7, F6, F5, F4 }
+    { D3, D2, D1, D0, D4, C6, D7, E6, B2, B6, B4, B5 }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
