@@ -15,4 +15,5 @@
 #define TAPPING_TOGGLE 2
 
 // Mouse settings
-#define MK_KINETIC_SPEED
+// #define MK_KINETIC_SPEED
+#define MOUSEKEY_INERTIA
